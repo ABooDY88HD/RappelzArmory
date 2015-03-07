@@ -60,7 +60,7 @@
         </div>
 
         <div id="footer">
-            Rappelz Armory - Open Source Project
+            <a href="http://freakzlike.github.io/RappelzArmory/">Rappelz Armory - Open Source Project</a>
         </div>
 
     </div>
