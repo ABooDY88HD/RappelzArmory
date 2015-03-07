@@ -1,0 +1,117 @@
+<h1>%character%: $char_name$</h1>
+
+
+<table id="characterInfo" width="100%">
+
+    <tr>
+        <td class="firstCol" width="250px">%guild%</td>
+        <td><b>$guild_text_tooltip$</b></td>
+    </tr>
+
+    <tr>
+        <td class="firstCol">%level%</td>
+        <td><b>$char_level$</b></td>
+    </tr>
+
+    <tr>
+        <td class="firstCol">%job%</td>
+        <td>$job_icon_text$</td>
+    </tr>
+
+    <tr>
+        <td class="firstCol">%job_level%</td>
+        <td><b>$job_level$</b></td>
+    </tr>
+
+    <tr>
+        <td class="firstCol">%total_exp%</td>
+        <td>$total_exp$</td>
+    </tr>
+
+    <tr>
+        <td class="firstCol">%created_on%</td>
+        <td>$char_created$</td>
+    </tr>
+
+    <tr>
+        <td class="firstCol">%last_seen%</td>
+        <td>$last_seen$</td>
+    </tr>
+
+</table>
+
+
+<h2>%equipment%:</h2>
+
+<!-- inventory -->
+<div style="position: relative; width: 386px; height: 300px; background-color: #000000">
+    <!-- equip -->
+    <div class="inventory_image" style="top: 20px; left: 20px;">$wear_slot-3$</div>
+    <div class="inventory_image" style="top: 20px; left: 64px;">$wear_slot-12$</div>
+    <div class="inventory_image" style="top: 64px; left: 20px;">$wear_slot-2$</div>
+    <div class="inventory_image" style="top: 64px; left: 64px;">$wear_slot-7$</div>
+    <div class="inventory_image" style="top: 108px; left: 20px;">$wear_slot-4$</div>
+    <div class="inventory_image" style="top: 108px; left: 64px;">$wear_slot-5$</div>
+    <div class="inventory_image" style="top: 152px; left: 20px;">$wear_slot-0$</div>
+    <div class="inventory_image" style="top: 152px; left: 64px;">$wear_slot-1$</div>
+    <div class="inventory_image" style="top: 196px; left: 20px;">$wear_slot-6$</div>
+    <!-- acc -->
+    <div class="inventory_image" style="top: 196px; left: 108px;">$wear_slot-8$</div>
+    <div class="inventory_image" style="top: 196px; left: 152px;">$wear_slot-11$</div>
+    <div class="inventory_image" style="top: 196px; left: 196px;">$wear_slot-9$</div>
+    <div class="inventory_image" style="top: 196px; left: 240px;">$wear_slot-10$</div>
+    <!-- deco -->
+    <div class="inventory_image" style="top: 20px; left: 284px;">$wear_slot-17$</div>
+    <div class="inventory_image" style="top: 20px; left: 328px;">$wear_slot-22$</div>
+    <div class="inventory_image" style="top: 64px; left: 284px;">$wear_slot-16$</div>
+    <div class="inventory_image" style="top: 64px; left: 328px;">$wear_slot-20$</div>
+    <div class="inventory_image" style="top: 108px; left: 284px;">$wear_slot-18$</div>
+    <div class="inventory_image" style="top: 108px; left: 328px;">$wear_slot-19$</div>
+    <div class="inventory_image" style="top: 152px; left: 284px;">$wear_slot-14$</div>
+    <div class="inventory_image" style="top: 152px; left: 328px;">$wear_slot-15$</div>
+    <div class="inventory_image" style="top: 196px; left: 328px;">$wear_slot-21$</div>
+    <!-- belt -->
+    <div class="inventory_image" style="top: 254px; left: 44px;">$belt_slot-0$</div>
+    <div class="inventory_image" style="top: 254px; left: 86px;">$belt_slot-1$</div>
+    <div class="inventory_image" style="top: 254px; left: 128px;">$belt_slot-2$</div>
+    <div class="inventory_image" style="top: 254px; left: 170px;">$belt_slot-3$</div>
+    <div class="inventory_image" style="top: 254px; left: 212px;">$belt_slot-4$</div>
+    <div class="inventory_image" style="top: 254px; left: 254px;">$belt_slot-5$</div>
+    <!-- belt -->
+    <div class="inventory_image" style="top: 254px; left: 308px;">$wear_slot-23$</div>
+
+</div>
+
+<h2>%pets%:</h2>
+
+<table class="characterInfoEntries" width="100%">
+
+    <tr>
+        <th width="75px">%formation%</th>
+        <th>%name%</th>
+        <th width="100px">%level%</th>
+        <th width="100px">%rarity%</th>
+        <th width="300px">%equipment%</th>
+    </tr>
+
+    $pet_entries$
+
+</table>
+
+
+<h2>%jobs%:</h2>
+
+<table class="characterInfoEntries" width="100%">
+
+    <tr>
+        <th>%class%</th>
+        <th>%job%</th>
+        <th>%job_level%</th>
+        <th>%type%</th>
+    </tr>
+
+    $job_entries$
+
+</table>
+
+<br>

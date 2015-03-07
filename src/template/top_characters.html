@@ -1,0 +1,27 @@
+<h1>%top_character%</h1>
+
+<table width="500px">
+    <tr>
+        <td width="200px" class="noBorder">
+            <b>%jobs%:</b>
+        </td>
+        <td width="300px" class="noBorder">
+            <form method='POST' action="index.php?site=top_characters" name="job_selection" style="display:inline;">
+                <select name="select_job" onChange="this.form.submit()" style="width: 130px;">
+                $job_selection_entries$
+                </select>
+            </form>
+        </td>
+    </tr>
+</table>
+<br>
+<table align="center" width="890px">
+    <tr>
+        <th width="30px">#</th>
+        <th width="420px" style="text-align: left;">%character%</th>
+        <th width="365px" style="text-align: left;">%guild%</th>
+        <th width="75px">%level%</th>
+    </tr>
+
+    $character_entries$
+</table>
