@@ -1,0 +1,183 @@
+body#main {
+    background-image: url(../images/bg_body_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #000000;
+    font-size: 11px;
+    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    color:#564b47;
+    padding:0;
+    margin:0;
+    word-wrap: break-word;
+}
+
+#wrapper {
+    width: 900px;
+    margin-bottom: 10px;
+    margin:0 auto;
+}
+
+#header {
+    padding: 0px;
+    margin: 0px;
+    min-height: 200px;
+    text-align: center;
+}
+
+#navigation {
+    background-color: #DDDDDD;
+    margin: 0 0px;
+    padding: 10px 5px 10px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#content {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 0px;
+    min-height: 600px;
+    padding: 5px 5px 0px 5px;
+}
+
+#footer {
+    margin: 0px;
+    padding: 10px;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid;
+}
+
+.noBorder {
+    border: 0px;
+}
+
+a, a:visited, a:active {
+  color: #d51c22;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+input, submit {
+    font-size: 12px;
+    margin: 1px;
+    padding: 2px;
+    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    border: solid 1px;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+td.firstCol {
+    font-weight: bold;
+}
+
+#characterInfo tr {
+    height: 25px;
+}
+
+.characterInfoEntries tr {
+    height: 25px;
+    text-align: center;
+}
+
+/*------------------------------------------*/
+/*              ERROR PAGE                  */
+/*------------------------------------------*/
+
+div#error_page {
+    width: 750px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -375px;
+    margin-top: 100px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #FE7276;
+    padding: 32px 5px 32px 5px;
+    text-align: center;
+
+    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+/*------------------------------------------*/
+/*            WARNING PAGE                  */
+/*------------------------------------------*/
+
+div.warning_content {
+    width: 560px;
+    height: 12px;
+    margin: 0px 10px 0px 10px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #F5F5BB;
+    padding: 7px 5px 10px 5px;
+    text-align: center;
+
+    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    font-size: 12px;
+    color: #000000;
+    top: 50px;
+}
+
+img.warning_content_image {
+    vertical-align: text-top;
+}
+
+/*------------------------------------------*/
+/*               SPECIFIC                   */
+/*------------------------------------------*/
+
+.inventory_image {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+}
+
+/* TOOl TIP */
+a.tooltip {
+    position:relative;
+    color: #d51c22;
+    text-decoration:none;
+}
+
+a.tooltip:hover {
+    z-index:25;
+    color: #000000;
+}
+
+a.tooltip span.tooltip  {
+    display: none
+}
+
+a.tooltip:hover span.tooltip { /*the p will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    border: 1px solid #555555;
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 5px;
+}
